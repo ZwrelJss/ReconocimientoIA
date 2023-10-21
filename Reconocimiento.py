@@ -1,7 +1,11 @@
 import streamlit as st
 
-# Abre la cámara
-video = st.camera_input()
+def main():
+    # Abre la cámara
+    video = st.camera_input()
 
-# Muestra el video en un cuadro
-st.image(video)
+    # Muestra el video en un cuadro
+    st.image(video)
+
+if __name__ == "__main__":
+    main()
